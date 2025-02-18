@@ -11,7 +11,6 @@ theme:
     text: 'Roboto'
     code: 'Roboto Mono'
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.trail
@@ -56,10 +55,6 @@ theme:
     - content.table.number
     - content.table.title
     - content.table.tooltip
-    - content.tabs
-    - content.tabs.link
-    - content.tabs.pills
-    - content.tabs.tooltip
     - content.text.align
     - content.text.break
     - content.text.color
