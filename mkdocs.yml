@@ -2,6 +2,7 @@ site_name: Brian Lau
 nav:
   - Home: index.md
   - Blog Index: blog-index.md
+  - Archive: archive.html
 theme:
   name: material
   custom_dir: docs
