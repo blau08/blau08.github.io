@@ -23,10 +23,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs-material
 
-    - name: Generate Blog Index
-      run: python generate_blog_index.py
-
-      run: mkdocs build
+    - name: Generate Blog Index and Build
+      run: |
+        python generate_blog_index.py
+        mkdocs build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
