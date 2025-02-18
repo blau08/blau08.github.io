@@ -1,8 +1,14 @@
 site_name: Brian Lau
 nav:
   - Home: index.md
+  - Blog:
+      - First Post: first-post.md
+      - Ride Connection: rideconnection.md
   - Blog Index: blog-index.md
-  - Archive: archive.html
+plugins:
+  - search
+  - blog
+
 theme:
   name: material
   custom_dir: docs
