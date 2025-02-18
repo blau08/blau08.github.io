@@ -35,7 +35,7 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  footer: 'Custom footer text here'
+  footer: 'Brian Lau'
   features:
     - navigation.sections
     - navigation.top
