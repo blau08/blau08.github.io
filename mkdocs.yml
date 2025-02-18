@@ -8,7 +8,7 @@ nav:
 plugins:
   - search
   - blog:
-      post_slugify: true
+      post_slugify: !!python/name:slugify.slugify
       archive_name: Archive
       archive_date_format: MMMM yyyy
       archive_toc: true
