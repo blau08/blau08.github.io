@@ -1,3 +1,8 @@
+---
+title: "First Post"
+date: "2025-02-17"
+---
+
 # First Post
 
 Hello World!

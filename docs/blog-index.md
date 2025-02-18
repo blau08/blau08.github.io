@@ -4,7 +4,7 @@ Welcome to the Blog Index page. Here you can find all the blog posts in one plac
 
 ## All Blog Posts
 
-- [First Post](first-post.md)
+- [First Post](first-post.md) - Posted on: 2025-02-17
 - [Ride Connection](rideconnection.md)
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
