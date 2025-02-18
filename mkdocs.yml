@@ -1,12 +1,16 @@
 site_name: My Blog
 nav:
-  - Home: first-post.md
+  - Home: index.md
   - Blog Index: blog-index.md
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - navigation.trail
+    - search.highlight
+    - search.share
     - toc.integrate
     - instant
     - search.highlight
