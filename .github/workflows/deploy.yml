@@ -23,7 +23,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs-material
 
-    - name: Build the site
+    - name: Generate Blog Index
+      run: python generate_blog_index.py
+
       run: mkdocs build
 
     - name: Deploy to GitHub Pages

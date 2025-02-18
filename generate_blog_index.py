@@ -34,7 +34,16 @@ posts.sort(key=lambda x: datetime.strptime(x['date'], '%Y-%m-%d'), reverse=True)
 # Generate blog index content
 index_content = "# Blog Index\n\nWelcome to the Blog Index page. Here you can find all the blog posts in one place.\n\n## All Blog Posts\n\n"
 for post in posts:
-    index_content += f"- [{post.get('title', 'Untitled')}]({post['filename']}) - Posted on: {post['date']}\n"
+    index_content += f"### {post.get('title', 'Untitled')}\n"
+    index_content += f"**Posted on:** {post['date']}\n\n"
+    with open(os.path.join(blog_dir, post['filename']), 'r', encoding='utf-8') as file:
+        content = file.read()
+        # Skip metadata
+        if content.startswith('---'):
+            end = content.find('---', 3)
+            if end != -1:
+                content = content[end+3:]
+        index_content += content + "\n\n"
 
 # Write to blog index file
 with open(output_file, 'w', encoding='utf-8') as file:
