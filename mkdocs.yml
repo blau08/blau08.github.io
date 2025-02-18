@@ -4,7 +4,6 @@ nav:
   - Blog:
       - First Post: first-post.md
       - Ride Connection: rideconnection.md
-  - Blog Index: blog-index.md
 plugins:
   - search
   - blog
@@ -27,6 +26,7 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.trail
+    - navigation.instant
     - search.highlight
     - search.share
     - toc.integrate
