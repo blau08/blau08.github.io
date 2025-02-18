@@ -22,15 +22,12 @@ theme:
   extra_css:
     - extra.css
   palette:
-    primary: 'indigo'
-    accent: 'pink'
-        # Palette toggle for light mode
     - scheme: default
+      primary: 'indigo'
+      accent: 'pink'
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
@@ -115,6 +112,28 @@ theme:
     - content.widget.video
     - content.widget.image
     - content.widget.text
+    - content.widget.list
+    - content.widget.table
+    - content.widget.tabs
+    - content.widget.code
+    - content.widget.math
+    - content.widget.footnotes
+    - content.widget.heading
+    - content.widget.link
+    - content.widget.text
+    - content.widget.video
+    - content.widget.image
+    - content.widget.list
+    - content.widget.table
+    - content.widget.tabs
+    - content.widget.code
+    - content.widget.math
+    - content.widget.footnotes
+    - content.widget.heading
+    - content.widget.link
+    - content.widget.text
+    - content.widget.video
+    - content.widget.image
     - content.widget.list
     - content.widget.table
     - content.widget.tabs
