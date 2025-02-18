@@ -1,7 +1,7 @@
-site_name: My Blog
+site_name: Brian Lau
 nav:
-  - Home: index.md
-  - Blog Index: blog-index.md
+  - Home: docs/index.md
+  - Blog Index: docs/blog-index.md
 theme:
   name: material
   custom_dir: docs
