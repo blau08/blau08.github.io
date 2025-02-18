@@ -8,6 +8,9 @@ nav:
 plugins:
   - search
   - blog
+  - meta
+  - tags
+  - search
 
 theme:
   name: material
