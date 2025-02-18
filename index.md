@@ -1,4 +1,10 @@
-# Welcome to MkDocs
+# Welcome to My Blog
+
+This is the home page where you can find links to all my blog posts.
+
+## Blog Posts
+
+- [First Post](first-post.md)
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

@@ -1,7 +1,7 @@
 site_name: My Blog
 nav:
   - Home: first-post.md
-  - Blog Index: index.md
+  - Blog Index: blog-index.md
 theme:
   name: material
   features:

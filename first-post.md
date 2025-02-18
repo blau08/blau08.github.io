@@ -1,11 +1,11 @@
-# First Blog Post
+# First Post
 
-Welcome to my first blog post! This is an example of how you can write content for your blog using Markdown.
+Hello World!
 
 ## Introduction
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
+I'm Brian Lau. I like AI, stocks, and NBA.
 
-## Conclusion
+## Main Content
 
-This is just a sample post to demonstrate how you can structure your blog content.
+- It's February 17, 2025.
