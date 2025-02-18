@@ -4,6 +4,15 @@ nav:
   - Blog Index: blog-index.md
 theme:
   name: material
+  custom_dir: docs
+  extra_css:
+    - extra.css
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
   features:
     - navigation.tabs
     - navigation.sections
