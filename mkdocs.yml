@@ -36,6 +36,9 @@ theme:
     text: 'Roboto'
     code: 'Roboto Mono'
   footer: 'Brian Lau'
+  copyright: Copyright &copy; Brian Lau
+  extra:
+    generator: false
   features:
     - navigation.sections
     - navigation.top
