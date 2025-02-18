@@ -1,4 +1,5 @@
 site_name: Brian Lau
+site_url: https://blau08.github.io
 nav:
   - Home: index.md
   - Blog:
@@ -6,7 +7,12 @@ nav:
       - Ride Connection: rideconnection.md
 plugins:
   - search
-  - blog
+  - blog:
+      post_slugify: true
+      archive_name: Archive
+      archive_date_format: MMMM yyyy
+      archive_toc: true
+      pagination: true
   - meta
   - tags
   - search
@@ -22,6 +28,7 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  footer: 'Custom footer text here'
   features:
     - navigation.sections
     - navigation.top
