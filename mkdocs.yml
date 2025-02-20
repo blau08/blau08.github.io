@@ -18,7 +18,7 @@ plugins:
 
 theme:
   name: material
-  custom_dir: docs
+  custom_dir: overrides
   extra_css:
     - extra.css
   palette:
@@ -39,6 +39,7 @@ theme:
   extra:
     generator: false
   features:
+    - no-generator
     - navigation.sections
     - navigation.top
     - navigation.trail
